@@ -60,94 +60,22 @@
 - common : <img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=Git&logoColor=white"/> <img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=GitHub&logoColor=white"/> <img src="https://img.shields.io/badge/AWS-232F3E?style=flat&logo=AmazonAWS&logoColor=white"/> <img src="https://img.shields.io/badge/ESLint-4B32C3?style=flat&logo=AmazonAWS&logoColor=white"/> <img src="https://img.shields.io/badge/Prettier-F7B93E?style=flat&logo=prettier&logoColor=white"/>
 - 협업툴 : <img src="https://img.shields.io/badge/Notion-000000?style=flat&logo=Notion&logoColor=white"/> <img src="https://img.shields.io/badge/Slack-4A154B?style=flat&logo=Slack&logoColor=white"/> <img src="https://img.shields.io/badge/Trello-0052CC?style=flat&logo=Trello&logoColor=white"/> <img src="https://img.shields.io/badge/Figma-F24E1E?style=flat&logo=Figma&logoColor=white"/> <img src="https://img.shields.io/badge/PostMan-FF6C37?style=flat&logo=PostMan&logoColor=white"/>
 
-### 구현 기능
-1. Main
-
-<div align="center">
-  
-![mainpage](https://user-images.githubusercontent.com/70960594/198539167-043192e3-dc44-49b9-87a4-bd5f5c49ddb5.gif)
-  
-</div>
-
----
+## 구현 기능 (Front-end & Back-end)
 
 
-2. Sign Up
-<div align="center">
-  
-  ![SignUp](https://user-images.githubusercontent.com/70960594/198539664-7788560a-4eef-4df0-98b6-5df3d357ba99.gif)
-  
-</div>
+| |페이지 및 기능 구현| 설명 | 담당 개발자 |
+| :--: | :--: | :--: | :--: |
+|Main Page & Carousel |![mainpage](https://user-images.githubusercontent.com/70960594/198539167-043192e3-dc44-49b9-87a4-bd5f5c49ddb5.gif)| - 메인페이지 레이아웃 </br> - 추천 상품 캐러셀 구현| **FRONT-END** </br> `김민경` </br>`강은지` </br> **BACK-END** </br> `이현태`|
+| Sign Up|![SignUp](https://user-images.githubusercontent.com/70960594/198539664-7788560a-4eef-4df0-98b6-5df3d357ba99.gif)| - 유효성검사에 따른 회원가입 구현| **FRONT-END** </br> `김민경` </br> **BACK-END** </br> `신인혁`|
+| Sign In|![SignIn](https://user-images.githubusercontent.com/70960594/198539736-6da97d5a-3bb9-40b2-9c94-ae52c4cbaa9a.gif)| - JWT를 활용한 로그인 구현 |  **FRONT-END** </br> `김민경` </br> **BACK-END** </br> `신인혁` |
+|Infinite Scroll |![InfiniteScroll](https://user-images.githubusercontent.com/70960594/198539779-65de330b-b90f-42fc-b0e6-333ef86a5fd5.gif)| - queryString 및 obserber메소드를 활용한 무한 스크롤 기능 구현 | **FRONT-END**`정현석`  </br> **BACK-END** </br> `이현태` |
+|Filter|![Filter](https://user-images.githubusercontent.com/70960594/198539823-21395c60-fb52-4765-8ca8-2913ff975a14.gif)| - queryString 을 활용한 필터링 기능 구현 | **FRONT-END** </br> `정현석`  </br> **BACK-END** </br> `이현태` |
+| Category |![Categories](https://user-images.githubusercontent.com/70960594/198539860-22a12854-4702-4fa1-a426-36a3fa79d73a.gif)| - Category Id 별 페이지 이동 |**FRONT-END** </br>`강은지` </br> **BACK-END** </br> `이현태` |
+|Product Detail |![productdetail](https://user-images.githubusercontent.com/70960594/198539907-4378365d-caa1-478f-8583-5dec44a6d492.gif)| - 상품 추가 시 장바구니 모달 창 구현 </br> - 사이즈 컴포넌트 분리 후 재고에 따른 선택 기능 구현 | **FRONT-END** </br> `강은지` </br> **BACK-END** </br> `이현태`, `박은송` |
+| Cart |![Cart](https://user-images.githubusercontent.com/70960594/198539958-2ad4bf52-e89e-4c8b-91fa-d9726a47d78a.gif)| -```fetch()```를 이용한 장바구니 CRUD구현 | **FRONT-END** </br> `최현` </br> **BACK-END** </br> `박은송` | 
+|Navigation Bar & Search |![Search](https://user-images.githubusercontent.com/70960594/198539983-01ee0550-00eb-4a9f-ab5b-fd2c4a6c6ed6.gif)| - 검색 모달창 구현 | **FRONT-END**</br> `강은지` </br> **BACK-END** </br> `이현태`  |
 
----
 
-3. Sign In
-
-<div align="center">
-  
-![SignIn](https://user-images.githubusercontent.com/70960594/198539736-6da97d5a-3bb9-40b2-9c94-ae52c4cbaa9a.gif)
-
-</div>
-
----
-
-4. Infinite Scroll
-
-<div align="center">
-  
-![InfiniteScroll](https://user-images.githubusercontent.com/70960594/198539779-65de330b-b90f-42fc-b0e6-333ef86a5fd5.gif)
-
-</div>
-
----
-
-5. Filter
-
-<div align="center">
-  
-![Filter](https://user-images.githubusercontent.com/70960594/198539823-21395c60-fb52-4765-8ca8-2913ff975a14.gif)
-
-</div>
-
----
-
-6. Categories
-
-<div align="center">
-  
-![Categories](https://user-images.githubusercontent.com/70960594/198539860-22a12854-4702-4fa1-a426-36a3fa79d73a.gif)
-
-</div>
-
----
-
-7. Product Detail
-
-<div align="center">
-  
-![productdetail](https://user-images.githubusercontent.com/70960594/198539907-4378365d-caa1-478f-8583-5dec44a6d492.gif)
-
-</div>
-
----
-
-8. Cart
-
-<div align="center">
-  
-![Cart](https://user-images.githubusercontent.com/70960594/198539958-2ad4bf52-e89e-4c8b-91fa-d9726a47d78a.gif)
-
-</div>
-
----
-
-9. Search
-
-<div align="center">
-  
-![Search](https://user-images.githubusercontent.com/70960594/198539983-01ee0550-00eb-4a9f-ab5b-fd2c4a6c6ed6.gif)
-  
-</div>
 
 
 ## 작업 내용 및 구현사항
